@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title> function syndax</title>
+	</head>
+	<body>
+		<script>
+	
+		
+			<!-- function syndax -->
+				/*function functionName(){
+					
+					code experession
+					console.log()
+				}
+				functionName()
+				
+				
+				
+				function functionName(paramater){
+					
+					return code experession
+				
+				}
+				functionName(argument)*/
+			<!-- function arguments -->
+			<!-- without argument without return -->
+			
+			function Main(){
+				var a=prompt("enter the number");
+				console.log(a*3);
+			
+			}
+			Main();
+	
+			<!-- withargument withreturn -->
+			function newMain(a,b,c){
+				c=a*b+c
+				return c;
+			
+			}
+			var num=newMain(3,6,3,4);
+			console.log(num);
+			
+			
+			<!-- withargument withoutreturn -->
+			function oldMain(num,sum){
+			
+			for(i=0;i<num;i++){
+					var rem=num%10;
+					sum=(sum*10)+rem;
+					num=(num-rem)/10
+				}
+				
+				console.log(sum)
+				
+			}
+			oldMain(654,0);
+			
+			function myfun(){
+				var a=25;
+				var b=23;
+				var c =a-b;
+				return c;
+			}
+			var net= myfun();
+			console.log(net);
+
+		
+		</script>
+	</body>
+</html>
